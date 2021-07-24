@@ -20,6 +20,12 @@
             height: 100%;
         }
 
+        body {
+            width: 100%;
+            height: 100%;
+
+        }
+
   
 </style>
 
@@ -38,7 +44,7 @@ if ( isset($_POST["spalva"]) && !empty($_POST["spalva"]) ) {
            $spalva ="raudona";
         } else if ($spalva == "melyna") {
             $spalva ="melyna";
-        } else $rezultatas = "turbut turetu buti kita spalva";
+        } else $rezultatas = 'kitokia nei numatyta spalva';
 
 } else $rezultatas = "Irasyk spalva - juoda arba raudona dar melyna gali pabandyt"; 
 
