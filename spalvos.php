@@ -15,13 +15,16 @@
 
 <!-- 6. Papildikite 5 programą, kad perduodant per input laukelį ne tik tekstą, bet ir spalvos kodą, puslapis nusidažytu spalvos kodo spalva.   -->
 
-<p>Iveskite spalva</p>
+<div class='spalvaKita'>
+<p>Iveskite spalvą</p>
 <form action='spalvos_action.php' method='post'>
     <input type='text' name='spalva' />
   
     <button type='submit'>Patvirtinti</button> 
 
 </form>
+
+</div>
 
 
 </body>
