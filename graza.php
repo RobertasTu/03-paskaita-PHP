@@ -6,13 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Graza</title>
 </head>
+<style>
+    .container {
+        width: 80%;
+        margin: auto;
+    }
+    </style>
 <body>
-<h1>Grąža</h1>
+
 
 <!-- 1.Parduotuvėje pardavėja graža g pirkejui nori atiduoti 100,50,20,10,5 euru banknotais ir 2 ir 1 eurais monetomis. -->
 <!-- Apskaičiuoti, kiek ir kokio nominalo banknotų ir monetų pardavėja turės atiduoti pirkėjui. -->
 
     <div class='container'>
+    h1>Grąža</h1>
     <form action='graza.php' method='get'>
         <label name='graza'>Įveskite sumą</label>
         <input type='text' name='graza' value=''>
@@ -104,7 +111,7 @@ $likutis = '';
 
 
 
-    echo 'Suma :'.$graza.'<br>';
+    echo 'Įvesta suma :'.$graza.'Eur'.'<br>';
     echo 'Banknotai po 100 Eur = '.$simtines.'vnt'.'<br>';
     echo 'Banknotai po 50 Eur = '.$penkiasdesimt.'vnt'.'<br>';
     echo 'Banknotai po 20 Eur = '.$dvidesimt.'vnt'.'<br>';
@@ -117,7 +124,7 @@ $likutis = '';
     echo '100*'.$simtines.'+'.'50*'.$penkiasdesimt.'+'.'20*'.$dvidesimt.'+'.'10*'.$desimt.'+'.'5*'.$penki.'+'.'2*'.$du.'+'.'1*'.$vienas;
 
 } else { 
-    echo 'Iveskite teigiamą skaitinę vertę';
+    echo 'Įveskite teigiamą skaitinę vertę';
 }
 }
 
